@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Pokédex Tyradex</title>
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mon Pokédex</h1>
+        <p>Les données sont récupérées depuis l'API Tyradex.</p>
+    </header>
+
+    <main>
+        <section class="recherche">
+            <label for="pokemon-id">Entre l'ID d'un Pokémon :</label>
+
+            <div class="actions">
+                <input
+                    id="pokemon-id"
+                    type="number"
+                    min="1"
+                    placeholder="Par exemple : 25"
+                >
+                <button id="bouton-recherche" type="button">Rechercher</button>
+                <button id="bouton-tous" class="secondaire" type="button">
+                    Afficher tous les Pokémon
+                </button>
+            </div>
+        </section>
+
+        <p id="message" aria-live="polite"></p>
+        <section id="resultats" aria-live="polite"></section>
+    </main>
+
+    <script src="pokedex.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+[
+{
+        "pokedex_id": 0,
+        "category": "Pokémon Bug",
+        "name": {
+            "fr": "MissingNo."
+            
+        },
+        "sprites": {
+            "regular": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/sprites/0/regular.png",
+          
+        },
+        "types": [
+            {
+                "name": "Plante",
+                "image": "https://raw.githubusercontent.com/Yarkis01/TyraDex/images/types/plante.png"
+            }
+        ]
+        
+    }
+]
